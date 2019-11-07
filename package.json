@@ -1,6 +1,6 @@
 {
   "name": "@fn2/tiny-id",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Short code generator 📟",
   "main": "dist/cjs/index.js",
   "scripts": {
