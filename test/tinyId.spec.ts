@@ -1,16 +1,16 @@
 import expect from "./expect"
-import generate, { instance } from "../src"
+import tinyId from "../src"
 
 describe("tinyId", () => {
   it("generates ids", () => {
-    expect(generate()).toBe("a")
-    expect(generate()).toBe("b")
+    expect(tinyId.generate()).toBe("a")
+    expect(tinyId.generate()).toBe("b")
   })
 
   it("resets", () => {
-    instance.reset()
-    expect(generate()).toBe("a")
-    instance.reset()
-    expect(generate()).toBe("a")
+    tinyId.reset()
+    expect(tinyId.generate()).toBe("a")
+    tinyId.reset()
+    expect(tinyId.generate()).toBe("a")
   })
 })
