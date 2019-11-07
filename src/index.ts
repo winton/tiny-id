@@ -34,4 +34,7 @@ export class TinyId {
 }
 
 export const instance = new TinyId()
-export default instance.generate.bind(instance)
+
+export default instance.generate.bind(
+  instance
+) as typeof instance.generate
