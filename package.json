@@ -1,5 +1,5 @@
 {
-  "name": "tiny-id",
+  "name": "@fn2/tiny-id",
   "version": "0.0.1",
   "description": "Short code generator 📟",
   "main": "dist/cjs/index.js",
