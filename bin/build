@@ -6,7 +6,7 @@ BUMP=${1:-minor}
 VERSION="$(npx -c 'echo "$npm_package_version"')"
 VERSION_BUMP="$(npx semver -i $BUMP $VERSION)"
 ESM="./dist/esm/index.js"
-MJS="./dist/mjs/tiny-id-$VERSION_BUMP.mjs"
+MJS="./dist/mjs/tinyId-$VERSION_BUMP.mjs"
 
 rm -rf dist
 tsc -b
